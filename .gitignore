@@ -1,0 +1,20 @@
+# Ignore node_modules in both frontend and backend
+backend/node_modules
+frontend/node_modules
+
+# Ignore log files
+logs
+frontend/*.log
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Ignore build output directories
+frontend/dist
+frontend/dist-ssr
+
+# Ignore local environment files
+frontend/*.local
+.env
