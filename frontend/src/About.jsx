@@ -20,7 +20,7 @@ export default function About() {
   return (
     <>
         <h2>{about?.Page_Title}</h2>
-        <table className="table table-primary table-striped w-100">
+        <table className="table table-primary table-striped w-200">
             <thead>
                 <tr>
                     <th>Name</th>
